@@ -12,34 +12,6 @@ display: block;
 margin: 0 auto;
 width: 25%;
 }
- /* For screens smaller than 600px */
-@media screen and (max-width: 600px) {
-  p {
-    font-size: 20px;
-  }
-  img {
-    width: 50%;
-  }
-}
-
-/* For screens larger than 600px */
-@media screen and (min-width: 600px) {
-  p {
-    font-size: 32px;
-  }
-  img {
-    width: 25%;
-  }
-}
-
-</style>
-</head>
-<body>
-<p>Can we hang out soon?</p>
-<img src="https://media.tenor.com/zGm5acSjHCIAAAAM/cat-begging.gif">
-</body>
-<title>Botões</title>
-<style>
 #but1 {
 position: fixed;
 top: 70%;
@@ -51,9 +23,13 @@ position: absolute;
  left: 39%;
   top: 68%;
 }
+ @media (max-width: 600px) {
+ }
 </style>
 </head>
 <body>
+<p>Can we hang out soon?</p>
+<img src="https://media.tenor.com/zGm5acSjHCIAAAAM/cat-begging.gif">
 <button id="but1">YES BBY!</button>
 <button id="but2">NO</button>
 <script>
