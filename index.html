@@ -1,56 +1,19 @@
 <html>
-<head>
-     <meta charset="UTF-8" />
+  <head>
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Hiiiiii</title>
-<style>
-p {
-text-align: center;
-font-size: 32px;
-font-family: Candara, Oswald;
-}
-img {
-display: block;
-margin: 0 auto;
-width: 25%;
-}
-#but1 {
-position: fixed;
-top: 70%;
-left: 55%;
-transform: translate(-50%, -50%);
-}
-#but2 {
-position: absolute;
- left: 39%;
-  top: 68%;
-}
- @media (max-width: 600px) {
- }
-</style>
-</head>
-<body>
-<p>Can we hang out soon?</p>
-<img src="https://media.tenor.com/zGm5acSjHCIAAAAM/cat-begging.gif">
-<button id="but1">YES BBY!</button>
-<button id="but2">NO</button>
-<script>
-const button2 = document.getElementById('but2');
-let left = 40;
-button2.addEventListener('mouseover', function() {
-  if(left == 40){
-    left = 44;
-  }else{
-    left = 40;
-  }
-  this.style.left = left + '%';
-});
+    <title>Hiiiiii</title>
 
-</script>
-<script>document.getElementById('but1').addEventListener('click', function() {
-alert('YAYY THANK U 😍❤️');
-});
-</script>
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Can we hang out soon?</h1>
+    <img src="https://media.tenor.com/zGm5acSjHCIAAAAM/cat-begging.gif" />
+    <div class="container-button">
+      <button class="button-1" id="but2">NO</button>
+      <button class="button-1" id="but1">YES BBY!</button>
+    </div>
+    <script src="script.js" />
+  </body>
 </html>
