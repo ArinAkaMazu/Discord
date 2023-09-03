@@ -12,9 +12,26 @@ display: block;
 margin: 0 auto;
 width: 25%;
 }
- @media (max-width: 600px)
- @media (max-height:300px){
- }
+ /* For screens smaller than 600px */
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 20px;
+  }
+  img {
+    width: 50%;
+  }
+}
+
+/* For screens larger than 600px */
+@media screen and (min-width: 600px) {
+  p {
+    font-size: 32px;
+  }
+  img {
+    width: 25%;
+  }
+}
+
 </style>
 </head>
 <body>
