@@ -85,3 +85,6 @@ input[type="button"].but {
     display: grid;
     grid-template-columns: 50%;
 }
+.QR{
+  font-family: 'Roboto', serif;
+}
