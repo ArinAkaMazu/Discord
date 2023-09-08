@@ -1,9 +1,8 @@
 * {
   margin: 0%;
   padding: 0%;
-
 }
-  
+
 body,
 html {
   height: 100%;
@@ -33,11 +32,11 @@ a {
   justify-content: center;
   align-items: center;
 }
-.astrix{
+.astrix {
   color: red;
   size: 3px;
 }
-.welcome{
+.welcome {
   text-align: center;
 }
 .wel {
@@ -58,7 +57,7 @@ input[type="text"] {
 .entry2 {
   font-size: 13px;
   font-weight: 200;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 input[type="button"].but {
   border: 2px solid #5865f2;
@@ -71,20 +70,19 @@ input[type="button"].but {
   font-size: 15px;
   background-color: #5865f2;
   color: white;
-
 }
-.code{
-    width: 180px;
-    height: 180px;
-    background-color: white;
+.code {
+  width: 180px;
+  height: 180px;
+  background-color: white;
 }
-.right{
-    text-align: right;
-    justify-content: right;
-    margin-right: 55px;
-    display: grid;
-    grid-template-columns: 25%;
+.right {
+  text-align: right;
+  justify-content: right;
+  margin-right: 55px;
+  display: grid;
+  grid-template-columns: 25%;
 }
-.QR{
-  font-family: 'Roboto', serif;
+.QR {
+  font-family: "Roboto", serif;
 }
