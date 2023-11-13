@@ -81,8 +81,14 @@ input[type="button"].but {
   justify-content: right;
   margin-right: 55px;
   display: grid;
-  grid-template-columns: 25%;
+ grid-template-columns: 50%;
 }
 .QR {
   font-family: "Roboto", serif;
+}
+.left{
+  text-align: left;
+  justify-content: left;
+  display: grid;
+  grid-template-columns: 50%;
 }
