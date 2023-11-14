@@ -28,14 +28,13 @@ a:link{
 .container {
   border: none;
   border-radius: 2.5px;
-  margin: auto;
-  margin-bottom: 35px;
-  padding: 10px;
+  padding: 36px;
   width: 50%;
   background-color: #36393f;
   color: white;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .astrix {
   color: red;
@@ -50,6 +49,7 @@ a:link{
   color: #b5bac1;
   font-weight: 400;
   font-size: 16px;
+  margin-left: 10px;
 }
 .entry1,
 .entry2,
@@ -62,7 +62,7 @@ a:link{
   font-weight: 500px;
 }
 input[type="text"] {
-  width: 180%;
+  width: 230%;
   height: 30px;
   border-radius: 4px;
 }
@@ -76,7 +76,7 @@ input[type="button"].but {
   border: none;
   border-radius: 5px;
   padding: 12px;
-  width: 185%;
+  width: 240%;
   margin: auto;
   cursor: pointer;
   font-size: 15px;
@@ -84,21 +84,24 @@ input[type="button"].but {
   color: white;
   display: inline-block;
   font-family: "gg sans";
+  font-weight: 600;
 }
 .code {
   width: 180px;
   height: 180px;
   background-color: white;
+  margin:auto
 }
 .right {
   text-align: right;
   justify-content: right;
-  margin-right: 55px;
+ margin:20px,20px,20px,20px;
   display: grid;
   font-family: "gg sans";
 }
 .QR {
   font-family: "gg sans";
+  margin: 10px,10px,10px,10px;
 }
 .left{
   text-align: left;
