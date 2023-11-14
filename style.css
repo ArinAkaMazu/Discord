@@ -17,12 +17,16 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-a {
+a:link{
+  color: rgb(7,106,174);
+  font-family: "gg sans";
+  font-size: 12px;
+  font-weight: 500;
   text-decoration: none;
-  color: #73c2fb;
 }
 .container {
-  border: 5px solid #36393f;
+  border: none;
+  border-radius: 2.5px;
   margin: auto;
   margin-bottom: 35px;
   padding: 10px;
@@ -38,6 +42,7 @@ a {
 }
 .welcome {
   text-align: center;
+  font-family: "gg sans";
 }
 .wel {
   text-align: center;
@@ -48,6 +53,10 @@ a {
 .entry3 {
   color: gainsboro;
 }
+.entry3{
+  font-size: 12px;
+  font-weight: 500px;
+}
 input[type="text"] {
   width: 50%;
   height: 24px;
@@ -57,10 +66,10 @@ input[type="text"] {
 .entry2 {
   font-size: 13px;
   font-weight: 200;
-  font-family: "Roboto Slab", serif;
+  font-family:"gg sans";
 }
 input[type="button"].but {
-  border: 2px solid #5865f2;
+  border: none;
   border-radius: 5px;
   padding: 12px;
   width: 45%;
@@ -70,6 +79,7 @@ input[type="button"].but {
   font-size: 15px;
   background-color: #5865f2;
   color: white;
+  display: inline-block;
 }
 .code {
   width: 180px;
@@ -81,14 +91,19 @@ input[type="button"].but {
   justify-content: right;
   margin-right: 55px;
   display: grid;
- grid-template-columns: 50%;
+  font-family: "gg sans";
+  font-size: 16px;
+  font-weight: 600;
 }
 .QR {
-  font-family: "Roboto", serif;
+  font-family: "gg sans";
 }
 .left{
   text-align: left;
   justify-content: left;
   display: grid;
-  grid-template-columns: 50%;
+}
+.container2{
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
