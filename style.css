@@ -67,7 +67,12 @@ left: 25%;
   font-size: 12px;
   font-weight: 500px;
 }
-input[type="text"] {
+input[type="email"] {
+  width: 230%;
+  height: 30px;
+  border-radius: 4px;
+}
+input[type="password"] {
   width: 230%;
   height: 30px;
   border-radius: 4px;
