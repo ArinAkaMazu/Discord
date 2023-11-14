@@ -18,8 +18,8 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-a:link{
-  color: rgb(7,106,174);
+a:link {
+  color: rgb(7, 106, 174);
   font-family: "gg sans";
   font-size: 12px;
   font-weight: 500;
@@ -38,8 +38,8 @@ a:link{
   justify-content: center;
   align-items: center;
   position: fixed;
-top: 13.5%;
-left: 25%;
+  top: 13.5%;
+  left: 25%;
 }
 .astrix {
   color: red;
@@ -55,15 +55,13 @@ left: 25%;
   font-weight: 400;
   font-size: 16px;
   padding-left: 50px;
-  
 }
 .entry1,
 .entry2,
 .entry3 {
   color: #b5bac1;
-
 }
-.entry3{
+.entry3 {
   font-size: 12px;
   font-weight: 500px;
 }
@@ -81,7 +79,7 @@ input[type="password"] {
 .entry2 {
   font-size: 12px;
   font-weight: 700;
-  font-family:"gg sans";
+  font-family: "gg sans";
 }
 input[type="button"].but {
   border: none;
@@ -101,34 +99,34 @@ input[type="button"].but {
   width: 180px;
   height: 180px;
   background-color: white;
-  margin:auto;
+  margin: auto;
   margin-bottom: 20px;
 }
 .right {
   text-align: right;
   justify-content: right;
- margin:20px,20px,20px,20px;
+  margin: 20px, 20px, 20px, 20px;
   display: grid;
   font-family: "gg sans";
 }
 .QR {
   font-family: "gg sans";
-  margin: 10px,10px,10px,10px;
+  margin: 10px, 10px, 10px, 10px;
 }
-.left{
+.left {
   text-align: left;
   justify-content: left;
   display: grid;
 }
-.container2{
+.container2 {
   display: grid;
   grid-template-columns: 50% 50%;
 }
-.cent{
+.cent {
   text-align: center;
   color: #b5bac1;
 }
-.back{
+.back {
   font-size: 24px;
   font-weight: 600;
   line-height: 30px;
