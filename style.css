@@ -9,7 +9,7 @@ html {
 }
 
 .bg {
-  background-image: url("https://th.bing.com/th/id/OIP._ZETHqaTCW1r5eiqmdGPngHaEK?pid=ImgDet&rs=1");
+  background-image: url("https://img.itch.zone/aW1nLzExNzcxMzYucG5n/original/Ghm8Du.png");
 
   height: 100%;
 
@@ -46,40 +46,43 @@ a:link{
 }
 .wel {
   text-align: center;
-  color: gainsboro;
+  color: #b5bac1;
+  font-weight: 400;
+  font-size: 16px;
 }
 .entry1,
 .entry2,
 .entry3 {
-  color: gainsboro;
+  color: #b5bac1;
+
 }
 .entry3{
   font-size: 12px;
   font-weight: 500px;
 }
 input[type="text"] {
-  width: 50%;
-  height: 24px;
-  border-radius: 2px;
+  width: 180%;
+  height: 30px;
+  border-radius: 4px;
 }
 .entry1,
 .entry2 {
-  font-size: 13px;
-  font-weight: 200;
+  font-size: 12px;
+  font-weight: 700;
   font-family:"gg sans";
 }
 input[type="button"].but {
   border: none;
   border-radius: 5px;
   padding: 12px;
-  width: 45%;
-  margin: 30px;
+  width: 185%;
+  margin: auto;
   cursor: pointer;
-  border: 1px solid;
   font-size: 15px;
   background-color: #5865f2;
   color: white;
   display: inline-block;
+  font-family: "gg sans";
 }
 .code {
   width: 180px;
@@ -92,8 +95,6 @@ input[type="button"].but {
   margin-right: 55px;
   display: grid;
   font-family: "gg sans";
-  font-size: 16px;
-  font-weight: 600;
 }
 .QR {
   font-family: "gg sans";
@@ -106,4 +107,12 @@ input[type="button"].but {
 .container2{
   display: grid;
   grid-template-columns: 50% 50%;
+}
+.cent{
+  text-align: center;
+}
+.welcome{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
 }
