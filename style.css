@@ -90,7 +90,8 @@ input[type="button"].but {
   width: 180px;
   height: 180px;
   background-color: white;
-  margin:auto
+  margin:auto;
+  margin-bottom: 20px;
 }
 .right {
   text-align: right;
