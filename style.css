@@ -27,7 +27,7 @@ a:link{
 }
 .container {
   border: none;
-  border-radius: 2.5px;
+  border-radius: 4.5px;
   padding: 36px;
   width: 50%;
   background-color: #36393f;
@@ -35,6 +35,11 @@ a:link{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+top: 13.5%;
+left: 25%;
 }
 .astrix {
   color: red;
