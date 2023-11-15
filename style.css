@@ -69,11 +69,19 @@ input[type="email"] {
   width: 230%;
   height: 30px;
   border-radius: 4px;
+  color: white;
+  background-color: rgb(31, 29, 29);
+  border: none;
+  height: 35px;
 }
 input[type="password"] {
   width: 230%;
   height: 30px;
   border-radius: 4px;
+  color: white;
+  background-color: rgb(31, 29, 29);
+  border: none;
+  height: 35px;
 }
 .entry1,
 .entry2 {
@@ -133,4 +141,7 @@ input[type="button"].but {
   color: white;
   text-align: center;
   padding-left: 80px;
+}
+input[type="button"]:hover{
+  background-color: #4053d8;
 }
